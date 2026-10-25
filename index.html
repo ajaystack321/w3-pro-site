@@ -3,247 +3,324 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>W3Pro – Learn HTML, CSS & JavaScript</title>
+<title>W3Pro – Bachelor of Education</title>
 <link rel="stylesheet" href="css/style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-<!-- Top Navigation -->
 <header class="topbar">
- <div class="container topbar-inner">
- <a href="index.html" class="logo">W3<span>Pro</span></a>
- <nav class="nav">
- <a href="#html">HTML</a>
- <a href="#css">CSS</a>
- <a href="#js">JavaScript</a>
- <a href="#examples">Examples</a>
- <a href="#reference">Reference</a>
- </nav>
- <div class="topbar-actions">
- <button id="themeToggle" class="btn-icon" title="Toggle dark mode">🌓</button>
- <a href="#get-started" class="btn btn-primary">Get Started</a>
- </div>
- </div>
+  <div class="container topbar-inner">
+    <a href="index.html" class="logo">W3<span>Pro</span></a>
+    <nav class="nav">
+      <a href="#syllabus">Syllabus</a>
+      <a href="#subjects">Subjects</a>
+      <a href="#resources">Resources</a>
+      <a href="#notes">Notes</a>
+    </nav>
+    <div class="topbar-actions">
+      <button id="themeToggle" class="btn-icon" title="Toggle dark mode">🌓</button>
+      <a href="#subjects" class="btn btn-primary">Start Learning</a>
+    </div>
+  </div>
 </header>
 
-<!-- Hero -->
 <section class="hero">
- <div class="container hero-inner">
- <div class="hero-content">
- <h1>Learn to Code<br><span class="gradient-text">with Confidence</span></h1>
- <p class="lead">Professional tutorials, live examples, and clean references for HTML, CSS & JavaScript — designed for modern developers.</p>
- <div class="hero-cta">
- <a href="#html" class="btn btn-primary btn-lg">Start Learning HTML</a>
- <a href="#examples" class="btn btn-outline btn-lg">Try Examples</a>
- </div>
- <div class="hero-stats">
- <div><strong>120+</strong><span>Lessons</span></div>
- <div><strong>80+</strong><span>Live Examples</span></div>
- <div><strong>100%</strong><span>Free</span></div>
- </div>
- </div>
- <div class="hero-code">
- <div class="code-window">
- <div class="code-header">
- <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
- <span class="filename">index.html</span>
- </div>
- <pre><code class="language-html">&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
- &lt;title&gt;Hello W3Pro&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
- &lt;h1&gt;Hello World!&lt;/h1&gt;
- &lt;p&gt;Start coding today.&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;</code></pre>
- </div>
- </div>
- </div>
+  <div class="container hero-inner">
+    <div class="hero-content">
+      <h1>Bachelor of Education<br><span class="gradient-text">Complete Guide</span></h1>
+      <p class="lead">Professional syllabus, subject notes, teaching methods and resources for B.Ed students — clean, modern & easy to understand.</p>
+      <div class="hero-cta">
+        <a href="#subjects" class="btn btn-primary btn-lg">View Subjects</a>
+        <a href="#syllabus" class="btn btn-outline btn-lg">Check Syllabus</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>3</strong><span>Core Subjects</span></div>
+        <div><strong>12+</strong><span>Units Covered</span></div>
+        <div><strong>100%</strong><span>Free Notes</span></div>
+      </div>
+    </div>
+    <div class="hero-code">
+      <div class="code-window">
+        <div class="code-header">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="filename">B.Ed Overview</span>
+        </div>
+        <pre><code>Bachelor of Education (B.Ed)
+
+Duration     : 2 Years
+Eligibility  : Graduation
+Focus        : Teaching Skills
+               Pedagogy
+               Educational Psychology
+               Inclusive Education
+
+Goal → Become a Professional Teacher</code></pre>
+      </div>
+    </div>
+  </div>
 </section>
 
-<!-- Main Content -->
+<section id="subjects" class="subjects-top">
+  <div class="container">
+    <h2 class="section-title">Core Subjects</h2>
+    <p class="section-subtitle">Most important subjects for B.Ed students</p>
+    <div class="subject-cards">
+      <div class="subject-card">
+        <div class="subject-icon">🧠</div>
+        <h3>Educational Psychology</h3>
+        <p>Understanding learner, growth & development, learning theories, motivation and individual differences.</p>
+        <a href="#edu-psy" class="btn btn-primary btn-sm">Open Subject</a>
+      </div>
+      <div class="subject-card">
+        <div class="subject-icon">📚</div>
+        <h3>Pedagogy & Teaching Methods</h3>
+        <p>Teaching skills, lesson planning, methods of teaching, classroom management and micro-teaching.</p>
+        <a href="#pedagogy" class="btn btn-primary btn-sm">Open Subject</a>
+      </div>
+      <div class="subject-card">
+        <div class="subject-icon">📋</div>
+        <h3>Curriculum & Assessment</h3>
+        <p>Curriculum design, evaluation, inclusive education, CCE and modern assessment techniques.</p>
+        <a href="#curriculum" class="btn btn-primary btn-sm">Open Subject</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <main class="container main-layout">
- <!-- Sidebar -->
- <aside class="sidebar">
- <div class="sidebar-section">
- <h3>HTML</h3>
- <ul>
- <li><a href="#html-intro" class="active">Introduction</a></li>
- <li><a href="#html-basic">Basic Structure</a></li>
- <li><a href="#html-elements">Elements</a></li>
- <li><a href="#html-attributes">Attributes</a></li>
- <li><a href="#html-headings">Headings</a></li>
- <li><a href="#html-paragraphs">Paragraphs</a></li>
- </ul>
- </div>
- <div class="sidebar-section">
- <h3>CSS</h3>
- <ul>
- <li><a href="#css-intro">Introduction</a></li>
- <li><a href="#css-selectors">Selectors</a></li>
- <li><a href="#css-box">Box Model</a></li>
- <li><a href="#css-flex">Flexbox</a></li>
- </ul>
- </div>
- <div class="sidebar-section">
- <h3>JavaScript</h3>
- <ul>
- <li><a href="#js-intro">Introduction</a></li>
- <li><a href="#js-variables">Variables</a></li>
- <li><a href="#js-functions">Functions</a></li>
- <li><a href="#js-dom">DOM</a></li>
- </ul>
- </div>
- </aside>
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <h3>Syllabus</h3>
+      <ul>
+        <li><a href="#syllabus" class="active">Overall Syllabus</a></li>
+        <li><a href="#year1">Year 1 Structure</a></li>
+        <li><a href="#year2">Year 2 Structure</a></li>
+        <li><a href="#practical">Practical Work</a></li>
+      </ul>
+    </div>
+    <div class="sidebar-section">
+      <h3>Subjects</h3>
+      <ul>
+        <li><a href="#edu-psy">Educational Psychology</a></li>
+        <li><a href="#pedagogy">Pedagogy & Methods</a></li>
+        <li><a href="#curriculum">Curriculum & Assessment</a></li>
+      </ul>
+    </div>
+    <div class="sidebar-section">
+      <h3>Resources</h3>
+      <ul>
+        <li><a href="#books">Important Books</a></li>
+        <li><a href="#notes">Study Notes</a></li>
+        <li><a href="#lesson-plan">Lesson Plans</a></li>
+        <li><a href="#question">Previous Questions</a></li>
+      </ul>
+    </div>
+  </aside>
 
- <!-- Content Area -->
- <div class="content">
- <!-- HTML Section -->
- <section id="html" class="lesson">
- <h2>HTML Introduction</h2>
- <p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page and consists of a series of elements.</p>
- 
- <div class="info-box">
- <strong>Tip:</strong> HTML elements tell the browser how to display the content.
- </div>
+  <div class="content">
+    <section id="syllabus" class="lesson">
+      <h2>B.Ed Overall Syllabus</h2>
+      <p>Bachelor of Education is a 2-year professional programme designed to prepare skilled and reflective teachers for secondary and senior secondary levels.</p>
+      <div class="info-box">
+        <strong>Note:</strong> Syllabus may slightly vary according to university (NCTE guidelines followed).
+      </div>
+      <h3 id="year1">Year 1 – Foundation</h3>
+      <ul class="explain-list">
+        <li>Childhood and Growing Up</li>
+        <li>Contemporary India and Education</li>
+        <li>Learning and Teaching</li>
+        <li>Language across the Curriculum</li>
+        <li>Understanding Disciplines and Subjects</li>
+        <li>Pedagogy of School Subject – Part 1</li>
+        <li>Reading and Reflecting on Texts</li>
+        <li>Drama and Art in Education</li>
+      </ul>
+      <h3 id="year2">Year 2 – Advanced & Practical</h3>
+      <ul class="explain-list">
+        <li>Knowledge and Curriculum</li>
+        <li>Assessment for Learning</li>
+        <li>Creating an Inclusive School</li>
+        <li>Gender, School and Society</li>
+        <li>Pedagogy of School Subject – Part 2</li>
+        <li>Critical Understanding of ICT</li>
+        <li>School Internship (Major Practical)</li>
+      </ul>
+      <h3 id="practical">Practical Components</h3>
+      <div class="example">
+        <div class="example-header"><span>Important Practicals</span></div>
+        <pre><code>• Micro Teaching
+• Simulated Teaching
+• School Observation
+• Lesson Planning
+• Internship (16 weeks)
+• Action Research
+• Community Work</code></pre>
+      </div>
+    </section>
 
- <h3>A Simple HTML Document</h3>
- <div class="example">
- <div class="example-header">
- <span>Example</span>
- <button class="btn-copy" onclick="copyCode(this)">Copy</button>
- </div>
- <pre><code>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
- &lt;title&gt;Page Title&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
- &lt;h1&gt;My First Heading&lt;/h1&gt;
- &lt;p&gt;My first paragraph.&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;</code></pre>
- </div>
+    <section id="edu-psy" class="lesson">
+      <h2>Educational Psychology</h2>
+      <p>This subject helps future teachers understand how students learn, grow and behave in the classroom.</p>
+      <h3>Major Units</h3>
+      <ul class="explain-list">
+        <li>Growth and Development (Physical, Cognitive, Social, Emotional)</li>
+        <li>Theories of Learning (Piaget, Vygotsky, Bruner, Skinner)</li>
+        <li>Intelligence and Creativity</li>
+        <li>Motivation and Learning</li>
+        <li>Individual Differences</li>
+        <li>Personality and Mental Health</li>
+        <li>Guidance and Counselling</li>
+      </ul>
+      <div class="example">
+        <div class="example-header">
+          <span>Key Point</span>
+          <button class="btn-copy" onclick="copyCode(this)">Copy</button>
+        </div>
+        <pre><code>Learning is relatively permanent change 
+in behaviour that occurs as a result of 
+experience or practice.
 
- <h3>Example Explained</h3>
- <ul class="explain-list">
- <li>The <code>&lt;!DOCTYPE html&gt;</code> declaration defines that this document is an HTML5 document</li>
- <li>The <code>&lt;html&gt;</code> element is the root element of an HTML page</li>
- <li>The <code>&lt;head&gt;</code> element contains meta information about the HTML page</li>
- <li>The <code>&lt;title&gt;</code> element specifies a title for the HTML page</li>
- <li>The <code>&lt;body&gt;</code> element defines the document's body</li>
- </ul>
- </section>
+Three major domains of learning:
+1. Cognitive Domain
+2. Affective Domain
+3. Psychomotor Domain</code></pre>
+      </div>
+    </section>
 
- <!-- CSS Section -->
- <section id="css" class="lesson">
- <h2>CSS Introduction</h2>
- <p>CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed.</p>
+    <section id="pedagogy" class="lesson">
+      <h2>Pedagogy & Teaching Methods</h2>
+      <p>Pedagogy focuses on the art and science of teaching. It covers how to plan, deliver and evaluate effective lessons.</p>
+      <h3>Important Topics</h3>
+      <ul class="explain-list">
+        <li>Concept of Teaching and Learning</li>
+        <li>Maxims of Teaching</li>
+        <li>Methods of Teaching (Lecture, Discussion, Project, Problem Solving)</li>
+        <li>Lesson Planning (Herbartian, Bloom’s Taxonomy)</li>
+        <li>Micro Teaching Skills</li>
+        <li>Classroom Management</li>
+        <li>Teaching Aids and ICT</li>
+      </ul>
+      <div class="example">
+        <div class="example-header">
+          <span>Micro Teaching Skills</span>
+          <button class="btn-copy" onclick="copyCode(this)">Copy</button>
+        </div>
+        <pre><code>1. Skill of Introduction
+2. Skill of Questioning
+3. Skill of Explanation
+4. Skill of Stimulus Variation
+5. Skill of Reinforcement
+6. Skill of Blackboard Writing
+7. Skill of Closure</code></pre>
+      </div>
+    </section>
 
- <div class="example">
- <div class="example-header">
- <span>Example</span>
- <button class="btn-copy" onclick="copyCode(this)">Copy</button>
- </div>
- <pre><code>body {
- background-color: #0f172a;
- color: #e2e8f0;
- font-family: Inter, sans-serif;
-}
+    <section id="curriculum" class="lesson">
+      <h2>Curriculum & Assessment</h2>
+      <p>This subject deals with designing curriculum, continuous evaluation and creating inclusive classrooms for all learners.</p>
+      <h3>Key Areas</h3>
+      <ul class="explain-list">
+        <li>Meaning and Types of Curriculum</li>
+        <li>Curriculum Construction Process</li>
+        <li>Assessment for Learning vs Assessment of Learning</li>
+        <li>Continuous and Comprehensive Evaluation (CCE)</li>
+        <li>Tools and Techniques of Evaluation</li>
+        <li>Inclusive Education</li>
+        <li>Children with Special Needs</li>
+      </ul>
+    </section>
 
-h1 {
- color: #38bdf8;
- font-size: 2.5rem;
-}</code></pre>
- </div>
- </section>
-
- <!-- JS Section -->
- <section id="js" class="lesson">
- <h2>JavaScript Introduction</h2>
- <p>JavaScript is the programming language of the Web. It can update and change both HTML and CSS, and can calculate, manipulate and validate data.</p>
-
- <div class="example">
- <div class="example-header">
- <span>Example</span>
- <button class="btn-copy" onclick="copyCode(this)">Copy</button>
- </div>
- <pre><code>document.getElementById("demo").innerHTML = "Hello JavaScript!";
-
-function greet(name) {
- return `Hello, ${name}!`;
-}
-
-console.log(greet("Developer"));</code></pre>
- </div>
-
- <div class="try-it">
- <button class="btn btn-primary" onclick="runDemo()">Try it Yourself »</button>
- <div id="demo-output" class="demo-output"></div>
- </div>
- </section>
-
- <!-- Examples -->
- <section id="examples" class="lesson">
- <h2>Interactive Examples</h2>
- <div class="cards">
- <div class="card">
- <h3>Button Click</h3>
- <p>Change text on click</p>
- <button class="btn btn-primary" onclick="this.nextElementSibling.textContent = 'You clicked me!'">Click Me</button>
- <p class="result"></p>
- </div>
- <div class="card">
- <h3>Dark Mode</h3>
- <p>Toggle theme instantly</p>
- <button class="btn btn-outline" onclick="document.body.classList.toggle('dark')">Toggle Theme</button>
- </div>
- <div class="card">
- <h3>Live Counter</h3>
- <p id="counter">0</p>
- <button class="btn btn-primary" onclick="document.getElementById('counter').textContent = +document.getElementById('counter').textContent + 1">+</button>
- </div>
- </div>
- </section>
- </div>
+    <section id="resources" class="lesson">
+      <h2>Resources</h2>
+      <h3 id="books">Important Books</h3>
+      <ul class="explain-list">
+        <li>Educational Psychology – S.K. Mangal</li>
+        <li>Advanced Educational Psychology – Chauhan</li>
+        <li>Teacher and Education in Indian Society – NCERT</li>
+        <li>Pedagogy of Science / Social Science / Language (NCERT)</li>
+        <li>Assessment for Learning – NCERT</li>
+      </ul>
+      <h3 id="notes">Study Notes</h3>
+      <div class="cards">
+        <div class="card">
+          <h3>Psychology Notes</h3>
+          <p>Growth, Learning Theories, Motivation</p>
+          <button class="btn btn-outline" onclick="alert('Notes section ready for PDF upload')">Download</button>
+        </div>
+        <div class="card">
+          <h3>Pedagogy Notes</h3>
+          <p>Methods, Lesson Plan, Micro Teaching</p>
+          <button class="btn btn-outline" onclick="alert('Notes section ready for PDF upload')">Download</button>
+        </div>
+        <div class="card">
+          <h3>Curriculum Notes</h3>
+          <p>CCE, Inclusive Education, Evaluation</p>
+          <button class="btn btn-outline" onclick="alert('Notes section ready for PDF upload')">Download</button>
+        </div>
+      </div>
+      <h3 id="lesson-plan">Lesson Plan Format</h3>
+      <div class="example">
+        <div class="example-header">
+          <span>Standard Format</span>
+          <button class="btn-copy" onclick="copyCode(this)">Copy</button>
+        </div>
+        <pre><code>1. General Information (Class, Subject, Topic)
+2. General Aims
+3. Specific Objectives (Knowledge, Understanding, Application, Skill)
+4. Teaching Aids
+5. Previous Knowledge
+6. Introduction
+7. Presentation (with Blackboard Summary)
+8. Recapitulation
+9. Evaluation
+10. Homework / Assignment</code></pre>
+      </div>
+      <h3 id="question">Previous Year Questions Focus</h3>
+      <p>Practice these areas regularly for exams:</p>
+      <ul class="explain-list">
+        <li>Difference between Growth & Development</li>
+        <li>Piaget’s stages of cognitive development</li>
+        <li>Bloom’s Taxonomy</li>
+        <li>Micro teaching cycle</li>
+        <li>Inclusive education principles</li>
+        <li>Types of evaluation</li>
+      </ul>
+    </section>
+  </div>
 </main>
 
-<!-- Footer -->
 <footer class="footer">
- <div class="container footer-inner">
- <div class="footer-brand">
- <a href="#" class="logo">W3<span>Pro</span></a>
- <p>Professional learning platform for modern web development.</p>
- </div>
- <div class="footer-links">
- <div>
- <h4>Tutorials</h4>
- <a href="#html">HTML</a>
- <a href="#css">CSS</a>
- <a href="#js">JavaScript</a>
- </div>
- <div>
- <h4>Resources</h4>
- <a href="#">References</a>
- <a href="#">Examples</a>
- <a href="#">Exercises</a>
- </div>
- <div>
- <h4>About</h4>
- <a href="#">About Us</a>
- <a href="#">Contact</a>
- <a href="#">GitHub</a>
- </div>
- </div>
- </div>
- <div class="footer-bottom">
- <div class="container">© 2025 W3Pro. Built for learning.</div>
- </div>
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="#" class="logo">W3<span>Pro</span></a>
+      <p>Professional learning platform for B.Ed students. Clean notes, syllabus & resources.</p>
+    </div>
+    <div class="footer-links">
+      <div>
+        <h4>Quick Links</h4>
+        <a href="#syllabus">Syllabus</a>
+        <a href="#subjects">Subjects</a>
+        <a href="#resources">Resources</a>
+      </div>
+      <div>
+        <h4>Subjects</h4>
+        <a href="#edu-psy">Educational Psychology</a>
+        <a href="#pedagogy">Pedagogy</a>
+        <a href="#curriculum">Curriculum</a>
+      </div>
+      <div>
+        <h4>Help</h4>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">GitHub</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">© 2025 W3Pro. Built for B.Ed Students.</div>
+  </div>
 </footer>
-
 <script src="js/script.js"></script>
 </body>
 </html>
