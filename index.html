@@ -1,0 +1,249 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>W3Pro – Learn HTML, CSS & JavaScript</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Top Navigation -->
+<header class="topbar">
+ <div class="container topbar-inner">
+ <a href="index.html" class="logo">W3<span>Pro</span></a>
+ <nav class="nav">
+ <a href="#html">HTML</a>
+ <a href="#css">CSS</a>
+ <a href="#js">JavaScript</a>
+ <a href="#examples">Examples</a>
+ <a href="#reference">Reference</a>
+ </nav>
+ <div class="topbar-actions">
+ <button id="themeToggle" class="btn-icon" title="Toggle dark mode">🌓</button>
+ <a href="#get-started" class="btn btn-primary">Get Started</a>
+ </div>
+ </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+ <div class="container hero-inner">
+ <div class="hero-content">
+ <h1>Learn to Code<br><span class="gradient-text">with Confidence</span></h1>
+ <p class="lead">Professional tutorials, live examples, and clean references for HTML, CSS & JavaScript — designed for modern developers.</p>
+ <div class="hero-cta">
+ <a href="#html" class="btn btn-primary btn-lg">Start Learning HTML</a>
+ <a href="#examples" class="btn btn-outline btn-lg">Try Examples</a>
+ </div>
+ <div class="hero-stats">
+ <div><strong>120+</strong><span>Lessons</span></div>
+ <div><strong>80+</strong><span>Live Examples</span></div>
+ <div><strong>100%</strong><span>Free</span></div>
+ </div>
+ </div>
+ <div class="hero-code">
+ <div class="code-window">
+ <div class="code-header">
+ <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+ <span class="filename">index.html</span>
+ </div>
+ <pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+ &lt;title&gt;Hello W3Pro&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+ &lt;h1&gt;Hello World!&lt;/h1&gt;
+ &lt;p&gt;Start coding today.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+ </div>
+ </div>
+ </div>
+</section>
+
+<!-- Main Content -->
+<main class="container main-layout">
+ <!-- Sidebar -->
+ <aside class="sidebar">
+ <div class="sidebar-section">
+ <h3>HTML</h3>
+ <ul>
+ <li><a href="#html-intro" class="active">Introduction</a></li>
+ <li><a href="#html-basic">Basic Structure</a></li>
+ <li><a href="#html-elements">Elements</a></li>
+ <li><a href="#html-attributes">Attributes</a></li>
+ <li><a href="#html-headings">Headings</a></li>
+ <li><a href="#html-paragraphs">Paragraphs</a></li>
+ </ul>
+ </div>
+ <div class="sidebar-section">
+ <h3>CSS</h3>
+ <ul>
+ <li><a href="#css-intro">Introduction</a></li>
+ <li><a href="#css-selectors">Selectors</a></li>
+ <li><a href="#css-box">Box Model</a></li>
+ <li><a href="#css-flex">Flexbox</a></li>
+ </ul>
+ </div>
+ <div class="sidebar-section">
+ <h3>JavaScript</h3>
+ <ul>
+ <li><a href="#js-intro">Introduction</a></li>
+ <li><a href="#js-variables">Variables</a></li>
+ <li><a href="#js-functions">Functions</a></li>
+ <li><a href="#js-dom">DOM</a></li>
+ </ul>
+ </div>
+ </aside>
+
+ <!-- Content Area -->
+ <div class="content">
+ <!-- HTML Section -->
+ <section id="html" class="lesson">
+ <h2>HTML Introduction</h2>
+ <p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page and consists of a series of elements.</p>
+ 
+ <div class="info-box">
+ <strong>Tip:</strong> HTML elements tell the browser how to display the content.
+ </div>
+
+ <h3>A Simple HTML Document</h3>
+ <div class="example">
+ <div class="example-header">
+ <span>Example</span>
+ <button class="btn-copy" onclick="copyCode(this)">Copy</button>
+ </div>
+ <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+ &lt;title&gt;Page Title&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+ &lt;h1&gt;My First Heading&lt;/h1&gt;
+ &lt;p&gt;My first paragraph.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+ </div>
+
+ <h3>Example Explained</h3>
+ <ul class="explain-list">
+ <li>The <code>&lt;!DOCTYPE html&gt;</code> declaration defines that this document is an HTML5 document</li>
+ <li>The <code>&lt;html&gt;</code> element is the root element of an HTML page</li>
+ <li>The <code>&lt;head&gt;</code> element contains meta information about the HTML page</li>
+ <li>The <code>&lt;title&gt;</code> element specifies a title for the HTML page</li>
+ <li>The <code>&lt;body&gt;</code> element defines the document's body</li>
+ </ul>
+ </section>
+
+ <!-- CSS Section -->
+ <section id="css" class="lesson">
+ <h2>CSS Introduction</h2>
+ <p>CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed.</p>
+
+ <div class="example">
+ <div class="example-header">
+ <span>Example</span>
+ <button class="btn-copy" onclick="copyCode(this)">Copy</button>
+ </div>
+ <pre><code>body {
+ background-color: #0f172a;
+ color: #e2e8f0;
+ font-family: Inter, sans-serif;
+}
+
+h1 {
+ color: #38bdf8;
+ font-size: 2.5rem;
+}</code></pre>
+ </div>
+ </section>
+
+ <!-- JS Section -->
+ <section id="js" class="lesson">
+ <h2>JavaScript Introduction</h2>
+ <p>JavaScript is the programming language of the Web. It can update and change both HTML and CSS, and can calculate, manipulate and validate data.</p>
+
+ <div class="example">
+ <div class="example-header">
+ <span>Example</span>
+ <button class="btn-copy" onclick="copyCode(this)">Copy</button>
+ </div>
+ <pre><code>document.getElementById("demo").innerHTML = "Hello JavaScript!";
+
+function greet(name) {
+ return `Hello, ${name}!`;
+}
+
+console.log(greet("Developer"));</code></pre>
+ </div>
+
+ <div class="try-it">
+ <button class="btn btn-primary" onclick="runDemo()">Try it Yourself »</button>
+ <div id="demo-output" class="demo-output"></div>
+ </div>
+ </section>
+
+ <!-- Examples -->
+ <section id="examples" class="lesson">
+ <h2>Interactive Examples</h2>
+ <div class="cards">
+ <div class="card">
+ <h3>Button Click</h3>
+ <p>Change text on click</p>
+ <button class="btn btn-primary" onclick="this.nextElementSibling.textContent = 'You clicked me!'">Click Me</button>
+ <p class="result"></p>
+ </div>
+ <div class="card">
+ <h3>Dark Mode</h3>
+ <p>Toggle theme instantly</p>
+ <button class="btn btn-outline" onclick="document.body.classList.toggle('dark')">Toggle Theme</button>
+ </div>
+ <div class="card">
+ <h3>Live Counter</h3>
+ <p id="counter">0</p>
+ <button class="btn btn-primary" onclick="document.getElementById('counter').textContent = +document.getElementById('counter').textContent + 1">+</button>
+ </div>
+ </div>
+ </section>
+ </div>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+ <div class="container footer-inner">
+ <div class="footer-brand">
+ <a href="#" class="logo">W3<span>Pro</span></a>
+ <p>Professional learning platform for modern web development.</p>
+ </div>
+ <div class="footer-links">
+ <div>
+ <h4>Tutorials</h4>
+ <a href="#html">HTML</a>
+ <a href="#css">CSS</a>
+ <a href="#js">JavaScript</a>
+ </div>
+ <div>
+ <h4>Resources</h4>
+ <a href="#">References</a>
+ <a href="#">Examples</a>
+ <a href="#">Exercises</a>
+ </div>
+ <div>
+ <h4>About</h4>
+ <a href="#">About Us</a>
+ <a href="#">Contact</a>
+ <a href="#">GitHub</a>
+ </div>
+ </div>
+ </div>
+ <div class="footer-bottom">
+ <div class="container">© 2025 W3Pro. Built for learning.</div>
+ </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
